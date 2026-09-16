@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoLink Ghana — Buy • Sell • Connect</title>
+<meta name="description" content="AutoLink Ghana — a premium marketplace connecting buyers and sellers of cars, jets, gaming equipment, toys and more.">
+<style>
+:root{--bg:#07111f;--panel:#0d1b2d;--gold:#f5c451;--green:#16a66a;--text:#f7f8fb;--muted:#aab6c6;--line:#20334a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f7fa;color:#122033}
+a{text-decoration:none;color:inherit}.nav{position:sticky;top:0;z-index:50;background:rgba(5,13,24,.96);backdrop-filter:blur(12px);border-bottom:1px solid #1d2b3c}.navin{max-width:1250px;margin:auto;display:flex;align-items:center;gap:24px;padding:14px 22px}.logo{font-weight:900;font-size:22px;color:#fff}.logo span{color:var(--gold)}.tag{display:block;font-size:9px;color:#9eacbd;letter-spacing:2px;margin-top:3px}.links{display:flex;gap:18px;margin-left:auto;align-items:center}.links a{font-size:14px;color:#dce5ef}.links a:hover{color:var(--gold)}.btn{border:0;border-radius:10px;padding:12px 18px;font-weight:800;cursor:pointer}.gold{background:var(--gold);color:#101722}.outline{border:1px solid #607086;background:transparent;color:#fff}
+.hero{min-height:610px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(3,10,20,.95),rgba(4,12,22,.66),rgba(4,12,22,.2)),url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero-in{max-width:1250px;margin:auto;width:100%;padding:70px 22px}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;font-size:13px}.hero h1{font-size:clamp(42px,7vw,78px);line-height:.98;color:#fff;max-width:760px;margin:16px 0}.hero h1 span{color:var(--gold)}.hero p{font-size:18px;line-height:1.6;color:#d8e1eb;max-width:680px}.search{margin-top:30px;display:flex;max-width:900px;background:#fff;border-radius:14px;padding:7px;gap:7px}.search input,.search select{border:0;outline:0;padding:15px;font-size:14px;min-width:0;flex:1}.search button{padding:0 24px;border:0;border-radius:10px;background:var(--gold);font-weight:900}
+.features{background:#0a1727;color:#fff}.feature-in{max-width:1250px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1px}.feature{padding:22px;border-right:1px solid #1c3046}.feature b{display:block;margin-bottom:6px}.feature small{color:#9facbc}
+section{padding:70px 22px}.wrap{max-width:1250px;margin:auto}.head{display:flex;justify-content:space-between;align-items:end;margin-bottom:25px}.head h2{font-size:34px;margin:5px 0}.head p{color:#6e7b8b}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border:1px solid #e2e7ed;border-radius:16px;overflow:hidden;box-shadow:0 8px 25px rgba(20,35,55,.06)}.pic{height:190px;background-size:cover;background-position:center}.cardbody{padding:17px}.pill{display:inline-block;font-size:11px;font-weight:800;padding:6px 9px;background:#fff3cf;color:#7b5a00;border-radius:30px}.card h3{margin:10px 0 6px;font-size:18px}.price{font-weight:900;color:#0c6f49;font-size:17px}.meta{color:#7c8896;font-size:13px;margin-top:8px}
+.categories{background:#eef2f6}.catgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:15px}.cat{background:#fff;border:1px solid #dfe5eb;border-radius:15px;padding:22px 12px;text-align:center;font-weight:800;transition:.2s}.cat:hover{transform:translateY(-4px);border-color:var(--gold)}.icon{font-size:34px;display:block;margin-bottom:10px}
+.dark{background:var(--bg);color:#fff}.split{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.lux{border-radius:22px;min-height:390px;background:url('https://images.unsplash.com/photo-1559268950-2d7ceb2efa3a?auto=format&fit=crop&w=1100&q=85') center/cover}.split h2{font-size:42px;margin:10px 0}.split p{color:#aebaca;line-height:1.7}.check{display:grid;gap:12px;margin:24px 0}.check div{padding:12px 14px;background:#0d1c2f;border:1px solid #20344b;border-radius:10px}
+.footer{background:#040a12;color:#9eacbc;padding:45px 22px}.foot{max-width:1250px;margin:auto;display:flex;justify-content:space-between;gap:30px}.foot strong{color:#fff}.copy{text-align:center;margin-top:35px;font-size:12px}
+@media(max-width:900px){.links{display:none}.feature-in{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.catgrid{grid-template-columns:repeat(3,1fr)}.split{grid-template-columns:1fr}.lux{min-height:280px}}
+@media(max-width:600px){.hero{min-height:690px}.search{flex-direction:column}.search button{padding:15px}.grid{grid-template-columns:1fr}.catgrid{grid-template-columns:repeat(2,1fr)}.feature-in{grid-template-columns:1fr 1fr}.feature{padding:16px}.head{display:block}.hero-in{padding-top:55px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin">
+<div><div class="logo">AutoLink <span>GHANA</span></div><span class="tag">BUY • SELL • TRADE • CONNECT</span></div>
+<div class="links"><a href="#home">Home</a><a href="#vehicles">Cars</a><a href="#jets">Jets</a><a href="#gaming">Gaming</a><a href="#toys">Toys</a><a href="#marketplace">Marketplace</a><a href="#contact">Contact</a></div>
+<button class="btn gold" onclick="alert('Seller listing will be available in the next version.')">Sell / List</button>
+</div></nav>
+
+<header id="home" class="hero"><div class="hero-in">
+<div class="eyebrow">GHANA'S PREMIUM MARKETPLACE</div>
+<h1>Your Global Marketplace <span>in One Place.</span></h1>
+<p>Discover cars, trucks, motorcycles, luxury jets, gaming equipment, toys and more. AutoLink Ghana connects buyers and sellers across Ghana and beyond.</p>
+<div class="search"><input id="q" placeholder="Search for jets, cars, gaming equipment, toys or anything..."><select><option>All Categories</option><option>Cars & Vehicles</option><option>Private Jets</option><option>Gaming</option><option>Toys</option></select><select><option>Any Price</option><option>Under GH₵10,000</option><option>GH₵10,000+</option></select><button onclick="searchSite()">Search</button></div>
+</div></header>
+
+<div class="features"><div class="feature-in">
+<div class="feature">✓ <b>Verified Sellers</b><small>Build trust with buyers.</small></div>
+<div class="feature">🔒 <b>Secure Process</b><small>Safer buyer-seller connections.</small></div>
+<div class="feature">🌍 <b>Ghana & Worldwide</b><small>Local and global listings.</small></div>
+<div class="feature">⚡ <b>Easy Listing</b><small>List products quickly.</small></div>
+</div></div>
+
+<section id="vehicles"><div class="wrap"><div class="head"><div><p>FEATURED MARKETPLACE</p><h2>Cars & Vehicles</h2></div><button class="btn outline" style="background:#07111f" onclick="alert('Vehicle catalogue coming soon.')">View all</button></div>
+<div class="grid">
+<div class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><span class="pill">FEATURED</span><h3>Premium SUV</h3><div class="price">GH₵ 850,000</div><div class="meta">Accra • Cars & Vehicles</div></div></div>
+<div class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1586191122777-5d6f2c7f1f3a?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><span class="pill">TRUCK</span><h3>Heavy Duty Truck</h3><div class="price">Contact Seller</div><div class="meta">Ghana • Commercial</div></div></div>
+<div class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><span class="pill">MOTORBIKE</span><h3>Sport Motorcycle</h3><div class="price">Contact Seller</div><div class="meta">Accra • Motorbikes</div></div></div>
+<div class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><span class="pill">NEW</span><h3>Luxury Performance Car</h3><div class="price">Contact Seller</div><div class="meta">Worldwide • Cars</div></div></div>
+</div></div></section>
+
+<section id="jets" class="dark"><div class="wrap split"><div class="lux"></div><div><div class="eyebrow">LUXURY AVIATION</div><h2>Private Jets & Aircraft</h2><p>Browse premium aircraft and connect interested buyers with aircraft owners, brokers and sellers. Local and worldwide listings can live in one dedicated section.</p><div class="check"><div>✈️ Private Jets & Business Aircraft</div><div>🌎 Worldwide Seller Connections</div><div>🤝 Direct Buyer–Seller Contact</div></div><button class="btn gold" onclick="alert('Jet marketplace coming soon.')">Explore Jets</button></div></div></section>
+
+<section id="marketplace" class="categories"><div class="wrap"><div class="head"><div><p>SHOP & EXPLORE</p><h2>Marketplace Categories</h2></div></div>
+<div class="catgrid">
+<a class="cat" href="#vehicles"><span class="icon">🚗</span>Cars</a><a class="cat" href="#vehicles"><span class="icon">🚚</span>Trucks</a><a class="cat" href="#jets"><span class="icon">✈️</span>Private Jets</a><a class="cat" id="gaming" href="#marketplace"><span class="icon">🎮</span>Gaming</a><a class="cat" id="toys" href="#marketplace"><span class="icon">🧸</span>Toys</a><a class="cat" href="#marketplace"><span class="icon">🏠</span>Property</a>
+<a class="cat" href="#marketplace"><span class="icon">🏝️</span>Private Islands</a><a class="cat" href="#marketplace"><span class="icon">🔧</span>Vehicle Parts</a><a class="cat" href="#marketplace"><span class="icon">🏨</span>Hotels</a><a class="cat" href="#marketplace"><span class="icon">🏪</span>Shops</a><a class="cat" href="#marketplace"><span class="icon">🌱</span>Land</a><a class="cat" href="#marketplace"><span class="icon">🛥️</span>Boats & Yachts</a>
+</div></div></section>
+
+<section><div class="wrap"><div class="head"><div><p>HOW IT WORKS</p><h2>Simple. Professional. Connected.</h2></div></div><div class="grid">
+<div class="card"><div class="cardbody"><span class="icon">1️⃣</span><h3>Seller Lists</h3><p>Products and vehicles are presented with clear information.</p></div></div>
+<div class="card"><div class="cardbody"><span class="icon">2️⃣</span><h3>Buyer Searches</h3><p>Customers browse categories and find listings that interest them.</p></div></div>
+<div class="card"><div class="cardbody"><span class="icon">3️⃣</span><h3>AutoLink Connects</h3><p>Interested buyers can be connected with sellers.</p></div></div>
+<div class="card"><div class="cardbody"><span class="icon">4️⃣</span><h3>Deal Happens</h3><p>AutoLink can earn a commission according to its future business model.</p></div></div>
+</div></div></section>
+
+<footer id="contact" class="footer"><div class="foot"><div><strong>AutoLink Ghana</strong><p>Buy • Sell • Trade • Connect</p></div><div><strong>Marketplace</strong><p>Cars • Jets • Gaming • Toys • Property</p></div><div><strong>Contact</strong><p>Ghana • Worldwide</p></div></div><div class="copy">© 2026 AutoLink Ghana. Website preview.</div></footer>
+<script>
+function searchSite(){const q=document.getElementById('q').value.trim(); if(q) alert('Searching AutoLink Ghana for: '+q); else alert('Type something to search.')}
+</script>
+</body></html>
